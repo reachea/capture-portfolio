@@ -21,6 +21,10 @@ import ScrollTop from "../components/ScrollTop";
 const OurWork = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
+
+  React.useEffect(() => {
+    document.title= "Work | Reachea Sambath"
+  }, []);
   return (
     <Work
       style={{ background: "#fff" }}

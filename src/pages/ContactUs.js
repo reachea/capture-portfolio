@@ -5,6 +5,10 @@ import { pageAnimation, titleAnim } from "../animation";
 import styled from "styled-components";
 
 const ContactUs = () => {
+
+  React.useEffect(() => {
+    document.title= "Contact | Reachea Sambath"
+  }, []);
   return (
     <ContactStyle
       exit="exit"
